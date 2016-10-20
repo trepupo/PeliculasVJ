@@ -5,14 +5,16 @@
 //  Created by B303-19 on 20/10/16.
 //  Copyright © 2016 B303-19. All rights reserved.
 //
-
+// no me creen
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.backgroundColor = .white
+        
     }
 
     override func didReceiveMemoryWarning() {
