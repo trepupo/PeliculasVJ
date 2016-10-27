@@ -37,6 +37,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831015D31DC2308900EEAFFA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				831015D41DC2309A00EEAFFA /* Clases */,
+				831015D51DC230B300EEAFFA /* Vistas */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		831015D41DC2309A00EEAFFA /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Clases;
+			path = ../Clases;
+			sourceTree = "<group>";
+		};
+		831015D51DC230B300EEAFFA /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
+		831015D61DC230F100EEAFFA /* BE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BE;
+			sourceTree = "<group>";
+		};
+		831015D71DC2310900EEAFFA /* DALC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DALC;
+			sourceTree = "<group>";
+		};
+		831015D81DC2311A00EEAFFA /* ws */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ws;
+			sourceTree = "<group>";
+		};
 		838497451DB933A300E696BB = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +101,10 @@
 		838497501DB933A300E696BB /* PeliculasVJ */ = {
 			isa = PBXGroup;
 			children = (
+				831015D81DC2311A00EEAFFA /* ws */,
+				831015D71DC2310900EEAFFA /* DALC */,
+				831015D61DC230F100EEAFFA /* BE */,
+				831015D31DC2308900EEAFFA /* iPhone */,
 				838497511DB933A300E696BB /* AppDelegate.swift */,
 				838497531DB933A300E696BB /* ViewController.swift */,
 				838497551DB933A300E696BB /* Main.storyboard */,
@@ -301,6 +350,7 @@
 				838497651DB933A300E696BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
